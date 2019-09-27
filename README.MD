@@ -22,6 +22,8 @@ To put it simply, relational databases look like Excel spreadsheets, and they wo
 
 Virtually all relational database systems use SQL (Structured Query Language) as the basic language for querying and maintaining the database, and relational databases are extremely popular. The reasons for the dominance of relational databases are: simplicity, robustness, flexibility, performance, scalability and compatibility in managing generic data.
 
+A NoSQL database, or non-relational database, provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
+
 An example of a relational databse table looks like this:
 
 ![Table](images/table.png)
