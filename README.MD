@@ -1,6 +1,6 @@
 # SQL One
 
-In this lecture we introduce SQL (Structured Query Language) and PostgreSQL.
+In this lecture we introduce SQL (Structured Query Language) and PostgreSQL. Some developers love dealing with databases and database languages, as they can be considered a safehaven from the flexibility, arbitrariness, and confusion that can occur when dealing with loosely typed languages and frontend technologies like HTML, JavaScript, and CSS. Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. They are conducive to a binary, "it's either right, or it's wrong" mindset. 
 
 SQL is a domain-specific language used in programming, and it is designed for managing data held in a relational database management system. 
 
@@ -48,7 +48,7 @@ CREATE TABLE instructors (
 )
 ```
 
-Above, we are creating an instructors table, and specifying which datatypes are allowed to be inserted into specified columns of the table.
+In the code above, we are creating an instructors table, and specifying which datatypes are allowed to be inserted into specified columns of the table.
 
 ## Datatypes
 
@@ -122,7 +122,7 @@ SELECT *
 FROM instructors
 ```
 
-Above, we declare a select statement using the `SELECT` keyword. It is followed by the column name that we want to select data from. In this case, we used an asterik to say 'all' the data from every column. Then we declare what table to select from using the `FROM` keyword.
+Above, we declare two select statements using the `SELECT` keyword. Both are followed by the column name that we want to select data from, and then by the `FROM` keyword and the table we would like to select from . In the second select, we use an asterisk as a means of selecting all the data from every column of the instructors table. This is known as the universal, asterisk, or splat selector. 
 
 #### WHERE CLAUSE
 
@@ -135,6 +135,8 @@ WHERE name = 'Zach'
 ```
 
 ##### Comparison Operators
+
+Operators can be combined with the `WHERE` clause for greater specificity. 
 
 `>` - Greater than.
 
@@ -246,7 +248,7 @@ WHERE id BETWEEN 1 AND 3;
 
 #### LIMIT
 
-The `LIMIT` clause will allow you to return a certain amount of rows from a select statement.
+The `LIMIT` clause restricts the number of rows returned by a select statement.
 
 ```sql
 SELECT *
@@ -266,11 +268,11 @@ FROM instructors
 ORDER BY id
 ```
 
-This will organize how result in ascending order by default.
+They `ORDER BY` clause will organize results in ascending order by default.
 
 ##### ASC
 
-`ASC` is the keyword we can use with order by to sort our records in the result in ascending order.
+`ASC` is the keyword we can use with `ORDER BY` to organize by ascending order by the column type specified.
 
 
 ```sql
@@ -301,7 +303,7 @@ SELECT count(id)
 FROM instructors
 ```
 
-> It's important to note that count does not count null values. Pass in the `*` to account for all rows.
+> It's important to note that `count` does not count null values. Pass in the `*` to account for all rows.
 
 `min()` - This returns the minimum value of an expression.
 
@@ -310,7 +312,7 @@ SELECT min(age)
 FROM instructors
 ```
 
-Above, we are finding the youngest racer.
+Above, we are finding the youngest instructor.
 
 `max()` - This returns the maximum value of an expression.
 
@@ -319,7 +321,7 @@ SELECT max(age)
 FROM instructors
 ```
 
-Above, we are returning the oldest racer.
+Above, we are returning the oldest instructor.
 
 `sum()` - This returns the summed value of an expression.
 
@@ -341,11 +343,11 @@ Above, we have found the average age of the instructors.
 
 ### Update Statements
 
-We can  update our data inside of a database by using an `update statement`.
+We can update our data inside of a database by using an `update statement`.
 
 ```sql
 UPDATE instructors
-SET name = 'Chris'
+SET name = 'Joseph'
 WHERE id = 2
 ```
 
@@ -360,13 +362,13 @@ DELETE FROM instructors
 WHERE id = 2
 ```
 
-We first use the `DELETE FROM` keyword, then declare the table to remove from. We then choose the id of the racer we want to remove.
+We first declare the `DELETE FROM` clause, and then declare the table we want to remove data from. We then choose the id of the instructor we want to remove.
 
-> Make sure to add the where clause or you would remove everything in the table!
+> Make sure to add the where clause or the statement will remove everything in the table! SQL is unforgiving. That's why it's common practice to make sure you have an init.sql, and a seeds.sql file that is regularly updated.
 
 ### Dropping A Table
 
-We can drop our tables, if we feel the need to remove them. Be careful doing this, because we can not restore tables that have been dropped. This could lead to a lot of problems, so just keep that in mind!
+We can also drop our tables when we need to remove them. Be careful doing this, because we can not restore tables that have been dropped. Once again, SQL is unforgiving. 
 
 ```sql
 DROP TABLE instructors
