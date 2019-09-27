@@ -26,7 +26,7 @@ An example of a relational databse table looks like this:
 
 ![Table](images/table.png)
 
-Tables in a relational database all have a `schema`.
+Tables in a relational database are built based on a *schema*.
 
 ## Schema
 
