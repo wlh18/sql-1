@@ -1,16 +1,28 @@
 # SQL One
 
-In this lecture we introduce SQL, specfically the PostgreSQL flavor of SQL.
+In this lecture we introduce SQL (Structured Query Language) and PostgreSQL.
 
-PostgreSQL is the language that we will be using to interact with our database to store, retrieve, delete, and update data.
+SQL is a domain-specific language used in programming, and it is designed for managing data held in a relational database management system. 
+
+PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. PostgreSQL is the language that we will be using to interact with our database to store, retrieve, delete, and update data.
+
+An SQL server is a database management system which is mainly used for e-commerce and providing different data warehousing solutions. PostgreSQL is an advanced version of SQL which provides support to different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions.
+
+For more information on the differences between SQL and PostgreSQL, check out this article: https://www.educba.com/sql-server-vs-postgresql/
 
 ## Database
 
-A database is an organized way that we can create and store data for our applications. 
+A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex, they are often developed using formal design and modeling techniques.
 
-We will be working with a `relational` database. A relational data base is built upon the table layout. It's easy to think about this like Microsoft Excel, how there are columns and rows working together to organize data.
+The database management system (DBMS) is the software that interacts with end users, applications, and the database itself to capture and analyze the data. The DBMS software additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a "database system". Often the term "database" is also used to loosely refer to any of the DBMS, the database system or an application associated with the database.
 
-An example of a relational databse table looks like this
+PostgreSQL is a `relational` database. A relational database is organized based on the "relational model of data." This model organizes data into one or more tables (or “relations”) of rows and columns, with a unique key for each row. Usually, each entity type--or resource--that is described in a relational database has its own table with the rows representing instances of that type of entity, and the columns representing values attributed to that instance. Since each row in a table has its own unique key, rows in a table can be linked to rows in other tables by storing the unique key of the row to which it should be linked (where such unique key is known as a “foreign key”). Data relationships of arbitrary complexity can be represented using the simple set of concepts present in relational databases.
+
+To put it simply, relational databases look like Excel spreadsheets, and they work by relating and referencing rows and columns from one table to another.
+
+Virtually all relational database systems use SQL (Structured Query Language) as the basic language for querying and maintaining the database, and relational databases are extremely popular. The reasons for the dominance of relational databases are: simplicity, robustness, flexibility, performance, scalability and compatibility in managing generic data.
+
+An example of a relational databse table looks like this:
 
 ![Table](images/table.png)
 
@@ -18,7 +30,7 @@ Tables in a relational database all have a `schema`.
 
 ## Schema
 
-The `schema` is the bluepring for how our tableis structured. This is what sets the guidelines for how the data is stored inside of our database.
+The `schema` is the bluepring for how our table is structured. This is what sets the guidelines for how the data is stored inside of our database.
 
 A schema for our table above would look similar to this
 
