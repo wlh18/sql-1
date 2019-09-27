@@ -24,7 +24,7 @@ Virtually all relational database systems use SQL (Structured Query Language) as
 
 A NoSQL database, or **non-relational database**, provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
 
-An example of a relational databse table looks like this:
+Here's an example of what a table in a relational database might look like:
 
 ![Table](images/table.png)
 
