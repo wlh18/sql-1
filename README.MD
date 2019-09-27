@@ -28,7 +28,7 @@ Here's an example of what a table in a relational database might look like:
 
 ![Table](images/table.png)
 
-Tables in a relational database are built based on a schema.
+Tables in a relational database are built based on a relation schema. For a useful tool for creating database schemas, check out https://dbdiagram.io/home. 
 
 ## Schema
 
