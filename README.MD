@@ -30,9 +30,9 @@ Tables in a relational database all have a `schema`.
 
 ## Schema
 
-The `schema` is the bluepring for how our table is structured. This is what sets the guidelines for how the data is stored inside of our database.
+The `schema` is the blueprint for how our table is structured. Schemas are what determine how data is stored inside of our database.
 
-A schema for our table above would look similar to this
+A schema for our table above would look similar to this:
 
 ```sql
 CREATE TABLE racers (
@@ -43,11 +43,11 @@ CREATE TABLE racers (
 )
 ```
 
-Above, we are determining exactly what datatypes are allowed to be inserted into each coloumn for the row that is being added to our racers table in our database.
+Above, we are specifying which datatypes are allowed to be inserted into each column for any row that is being inserted into our "racers" table in our database.
 
-## DataTypes
+## Datatypes
 
-When setting up our schema we will determine what `data type` is allowed in our columns. There are many types out there, but we will cover the main ones.
+When setting up our schema we will determine what `datatype` is allowed in our columns. There are many types out there, but we will cover the main ones.
 
 ### Empty Values
 
