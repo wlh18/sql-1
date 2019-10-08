@@ -2,6 +2,8 @@
 
 In this lecture we introduce SQL (Structured Query Language) and PostgreSQL. Some developers love dealing with databases and database languages, as they can be considered a safehaven from the flexibility, arbitrariness, and confusion that can occur when dealing with loosely typed languages and frontend technologies like HTML, JavaScript, and CSS. Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" mindset. 
 
+> The corollary to databases being strongly typed is that they can be unforgiving. For example, missing semi-colons can break code, and errors are not nearly as descript as those thrown by React and even JavaScript. 
+
 SQL is a domain-specific language used in programming, and it is designed for managing data held in a relational database management system. 
 
 PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. PostgreSQL is the language that we will be using to interact with our database to store, retrieve, delete, and update data. Although it shares much in common with SQL, be aware that there are significant differences, particularly when it comes to syntax. 
@@ -365,7 +367,7 @@ WHERE id = 2
 
 We first declare the `DELETE FROM` clause, and then declare the table we want to remove data from. We then choose the id of the instructor we want to remove.
 
-> Make sure to add the where clause or the statement will remove everything in the table! SQL is unforgiving. That's why it's common practice to make sure you have an init.sql, and a seeds.sql file that is regularly updated.
+> Make sure to add the where clause or the statement will remove everything in the table! SQL is unforgiving. That's why it's common practice to make sure you have an init.sql, and a seeds.sql file that is regularly updated. 
 
 ### Dropping A Table
 
