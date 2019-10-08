@@ -10,7 +10,9 @@ PostgreSQL, also known as Postgres, is a free and open-source relational databas
 
 An SQL server is a database management system which is mainly used for e-commerce and providing different data warehousing solutions. PostgreSQL is an advanced version of SQL which provides support to different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions.
 
-For more information on the differences between SQL and PostgreSQL, check out this article: https://www.educba.com/sql-server-vs-postgresql/
+For more information on the differences between SQL and PostgreSQL, check out this article: https://www.educba.com/sql-server-vs-postgresql/.
+
+For a fantastic resource for learning more about PostgreSQL, checkout their official docs at https://www.postgresql.org/docs/. 
 
 ## Database
 
