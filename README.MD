@@ -1,4 +1,4 @@
-[matias](https://www.google.com)
+[matias](#SQL)
 
 # Objectives
 
@@ -351,8 +351,6 @@ SELECT *
 FROM instructors
 ORDER BY id DESC;
 ```
-
-https://github.com/matias-perezferrero/sql-one/blob/master/README.MD#sql
 
 ### SQL Functions
 
