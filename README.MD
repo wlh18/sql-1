@@ -228,7 +228,7 @@ FROM instructors
 WHERE id <= 2;
 ```
 
-`!=` - Does not equate.
+`!=` - Does not equal.
 
 ```sql
 SELECT *
