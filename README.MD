@@ -83,6 +83,38 @@ When setting up our schema we will determine what **datatype** is allowed in our
 
 `Boolean` - This data type is either true or false. 
 
+## Constraints 
+Constraints are the rules enforced on data columns on table. These are used to prevent invalid data from being entered into the database. This ensures the accuracy and reliability of the data in the database.
+
+Constraints could be column level or table level. Column level constraints are applied only to one column whereas table level constraints are applied to the whole table. Defining a data type for a column is a constraint in itself. For example, a column of type DATE constrains the column to valid dates.
+
+The following are commonly used constraints available in PostgreSQL.
+
+* NOT NULL Constraint − Ensures that a column cannot have NULL value.
+
+* UNIQUE Constraint − Ensures that all values in a column are different.
+
+* PRIMARY Key − Uniquely identifies each row/record in a database table.
+
+* FOREIGN Key − Constrains data based on columns in other tables.
+
+* CHECK Constraint − The CHECK constraint ensures that all values in a column satisfy certain conditions.
+
+* EXCLUSION Constraint − The EXCLUDE constraint ensures that if any two rows are compared on the specified column(s) or expression(s) using the specified operator(s), not all of these comparisons will return TRUE.
+
+
+Example of NOT NULL Constraint: 
+
+```sql
+CREATE TABLE COMPANY4(
+   ID INT PRIMARY KEY     NOT NULL,
+   NAME           TEXT    NOT NULL,
+   AGE            INT     NOT NULL,
+   ADDRESS        CHAR(50),
+   SALARY         REAL
+);
+```
+
 ## Statements
 
 SQL statements are queries that we make to our database.
