@@ -1,7 +1,7 @@
 # Sections
 
 
-[SQL One Lecture Notes](#SQL)
+[SQL One Lecture Notes](#sql-one-lecture-notes)
 
 # Objectives
 
