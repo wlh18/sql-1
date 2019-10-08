@@ -1,3 +1,24 @@
+## Objectives
+
+### Databases
+
+* Student understands the purpose of databases
+* Student understands relational databases and tables
+* Student understands value types
+
+### SQL
+
+* Student can create a table
+* Student can insert a row
+* Student can query with * or specific columns
+* Student can query results with a where clause
+* Student can use comparison operators (Greater, less than, equals, not equals)
+* Student can use IN/Not/And/OR/Like operators
+* Student can order by
+* Student can use max, min, avg, sum
+* Student can use count(*)
+* Student can use limit
+
 # SQL One
 
 In this lecture we introduce SQL (Structured Query Language) and PostgreSQL. Some developers love dealing with databases and database languages, as they can be considered a safehaven from the flexibility, arbitrariness, and confusion that can occur when dealing with loosely typed languages and frontend technologies like HTML, JavaScript, and CSS. Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" mindset. 
