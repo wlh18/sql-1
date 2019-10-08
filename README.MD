@@ -1,4 +1,7 @@
-[matias](#SQL)
+# Sections
+
+
+[SQL One Lecture Notes](#SQL)
 
 # Objectives
 
