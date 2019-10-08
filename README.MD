@@ -50,7 +50,7 @@ CREATE TABLE instructors (
     name TEXT,
     age INTEGER,
     country TEXT
-)
+);
 ```
 
 In the code above, we are creating an instructors table, and specifying which datatypes are allowed to be inserted into specified columns of the table.
@@ -137,7 +137,7 @@ We can use `insert statements` to add data into our tables. The syntax for an in
 INSERT INTO instructors
 (name, age, country)
 VALUES
-('Zach', 26, 'USA')
+('Zach', 26, 'USA');
 ```
 
 Above, we are adding a person into the database table instructors. Insert statements begin with the `INSERT INTO` keyword followed by the name of the table we are inserting data into. Then, in parentheses, we select the column names we would like to add to. We then use the `VALUES` keyword, followed by another pair of parentheses to include the specific data we would like to insert into the corresponding columns.
@@ -151,12 +151,12 @@ Above, we are adding a person into the database table instructors. Insert statem
 
 ```sql
 SELECT name
-FROM instructors
+FROM instructors;
 ```
 
 ```sql
 SELECT *
-FROM instructors
+FROM instructors;
 ```
 
 Above, we declare two select statements using the `SELECT` keyword. Both are followed by the column name that we want to select data from, and then by the `FROM` keyword and the table we would like to select from . In the second select, we use an asterisk as a means of selecting all the data from every column of the instructors table. This is known as the universal, asterisk, or splat selector. 
@@ -168,7 +168,7 @@ We can use a `where clause` to add a filter to our select statements.
 ```sql
 SELECT *
 FROM instructors
-WHERE name = 'Zach'
+WHERE name = 'Zach';
 ```
 
 ##### Comparison Operators
@@ -180,7 +180,7 @@ Operators can be combined with the `WHERE` clause for greater specificity.
 ```sql
 SELECT *
 FROM instructors
-WHERE id > 2
+WHERE id > 2;
 ```
 
 `<` - Less than.
@@ -188,7 +188,7 @@ WHERE id > 2
 ```sql
 SELECT *
 FROM instructors
-WHERE id < 2
+WHERE id < 2;
 ```
 
 `>=` - Greater than or equal to.
@@ -196,7 +196,7 @@ WHERE id < 2
 ```sql
 SELECT *
 FROM instructors
-WHERE id >= 2
+WHERE id >= 2;
 ```
 
 `<=` - Less than or equal to.
@@ -204,7 +204,7 @@ WHERE id >= 2
 ```sql
 SELECT *
 FROM instructors
-WHERE id <= 2
+WHERE id <= 2;
 ```
 
 `!=` - Does not equate.
@@ -212,7 +212,7 @@ WHERE id <= 2
 ```sql
 SELECT *
 FROM instructors
-WHERE id != 2
+WHERE id != 2;
 ```
 
 ##### Logical Operators
@@ -223,7 +223,7 @@ WHERE id != 2
 SELECT *
 FROM instructors
 WHERE id != 2
-AND id < 3
+AND id < 3;
 ```
 
 `OR` - Check for only one of multiple conditions to be true.
@@ -232,7 +232,7 @@ AND id < 3
 SELECT *
 FROM instructors
 WHERE name = 'Zach'
-OR id = 2
+OR id = 2;
 ```
 
 ##### Null and Not Null
@@ -242,7 +242,7 @@ OR id = 2
 ```sql
 SELECT *
 FROM instructors
-WHERE name IS NULL
+WHERE name IS NULL;
 ```
 
 `IS NOT NULL` - Checks for a value NOT to be null.
@@ -250,7 +250,7 @@ WHERE name IS NULL
 ```sql
 SELECT *
 FROM instructors
-WHERE name IS NOT NULL
+WHERE name IS NOT NULL;
 ```
 
 ##### IN Condition
@@ -290,7 +290,7 @@ The `LIMIT` clause restricts the number of rows returned by a select statement.
 ```sql
 SELECT *
 FROM instructors
-LIMIT 2
+LIMIT 2;
 ```
 
 This would return the first two rows of data from the instructors table.
@@ -302,7 +302,7 @@ This would return the first two rows of data from the instructors table.
 ```sql
 SELECT *
 FROM instructors
-ORDER BY id
+ORDER BY id;
 ```
 
 They `ORDER BY` clause will organize results in ascending order by default.
@@ -315,7 +315,7 @@ They `ORDER BY` clause will organize results in ascending order by default.
 ```sql
 SELECT *
 FROM instructors
-ORDER BY id ASC
+ORDER BY id ASC;
 ```
 
 ##### DESC
@@ -326,7 +326,7 @@ ORDER BY id ASC
 ```sql
 SELECT *
 FROM instructors
-ORDER BY id DESC
+ORDER BY id DESC;
 ```
 
 ### SQL Functions
@@ -337,7 +337,7 @@ There are "functions" that we can use with PostgreSQL. This will usually handle 
 
 ```sql
 SELECT count(id)
-FROM instructors
+FROM instructors;
 ```
 
 > It's important to note that `count` does not count null values. Pass in the `*` to account for all rows.
@@ -346,7 +346,7 @@ FROM instructors
 
 ```sql
 SELECT min(age)
-FROM instructors
+FROM instructors;
 ```
 
 Above, we are finding the youngest instructor.
@@ -355,7 +355,7 @@ Above, we are finding the youngest instructor.
 
 ```sql
 SELECT max(age)
-FROM instructors
+FROM instructors;
 ```
 
 Above, we are returning the oldest instructor.
@@ -364,7 +364,7 @@ Above, we are returning the oldest instructor.
 
 ```sql
 SELECT sum(age)
-FROM instructors
+FROM instructors;
 ```
 
 Above, we now have the sum of the ages for all the instructors.
@@ -373,7 +373,7 @@ Above, we now have the sum of the ages for all the instructors.
 
 ```sql
 SELECT avg(age)
-FROM instructors
+FROM instructors;
 ```
 
 Above, we have found the average age of the instructors.
@@ -385,7 +385,7 @@ We can update our data inside of a database by using an `update statement`.
 ```sql
 UPDATE instructors
 SET name = 'Joseph'
-WHERE id = 2
+WHERE id = 2;
 ```
 
 Above, we have just updated the name for the user with the id of 2. We first use the `UPDATE` keyword followed by the name of the table we are updating. Then we `SET` the name to "Chris" where the user id equals 2.
@@ -396,7 +396,7 @@ We can remove or destroy data from our databased by using a `delete statement`.
 
 ```sql
 DELETE FROM instructors
-WHERE id = 2
+WHERE id = 2;
 ```
 
 We first declare the `DELETE FROM` clause, and then declare the table we want to remove data from. We then choose the id of the instructor we want to remove.
@@ -408,5 +408,5 @@ We first declare the `DELETE FROM` clause, and then declare the table we want to
 We can also drop our tables when we need to remove them. Be careful doing this, because we can not restore tables that have been dropped. Once again, SQL is unforgiving. 
 
 ```sql
-DROP TABLE instructors
+DROP TABLE instructors;
 ```
