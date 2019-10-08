@@ -352,6 +352,8 @@ FROM instructors
 ORDER BY id DESC;
 ```
 
+https://github.com/matias-perezferrero/sql-one/blob/master/README.MD#sql
+
 ### SQL Functions
 
 There are "functions" that we can use with PostgreSQL. This will usually handle some sort of mathematical logic for us.
