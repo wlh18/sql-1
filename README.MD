@@ -1,6 +1,6 @@
 # SQL One
 
-In this lecture we introduce SQL (Structured Query Language) and PostgreSQL. Some developers love dealing with databases and database languages, as they can be considered a safehaven from the flexibility, arbitrariness, and confusion that can occur when dealing with loosely typed languages and frontend technologies like HTML, JavaScript, and CSS. Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. They are conducive to a binary, "it's either right, or it's wrong" mindset. 
+In this lecture we introduce SQL (Structured Query Language) and PostgreSQL. Some developers love dealing with databases and database languages, as they can be considered a safehaven from the flexibility, arbitrariness, and confusion that can occur when dealing with loosely typed languages and frontend technologies like HTML, JavaScript, and CSS. Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" mindset. 
 
 SQL is a domain-specific language used in programming, and it is designed for managing data held in a relational database management system. 
 
@@ -28,7 +28,7 @@ Here's an example of what a table in a relational database might look like:
 
 ![Table](images/table.png)
 
-Tables in a relational database are built based on a relation schema. For a useful tool for creating database schemas, check out https://dbdiagram.io/home. 
+Tables in a relational database are built based on a relation schema, or a blueprint. 
 
 ## Schema
 
@@ -36,6 +36,7 @@ A **database schema** is a blueprint for how a database is structured. Put anoth
 
 A **relation schema** is the logical definition of a table--it defines what the name of a table is, and what the name and datatype of each column is.
 
+For a useful tool for creating database schemas, check out https://dbdiagram.io/home. 
 
 A relation schema for the table above might look similar to this:
 
