@@ -1,4 +1,4 @@
-# Sections
+# Lesson Sections
 
 1. [SQL I Lecture Notes](#sql-i-lecture-notes)
 1. [SQL I Mini Project](#sql-i-mini-project)
