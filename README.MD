@@ -4,8 +4,7 @@
 1. [SQL I Mini Project](#sql-i-mini-project)
 1. [SQL I Afternoon Project](#sql-i-afternoon-project)
 
-<details open>
-    <summary> # Objectives</summary>
+ # Objectives <details open>
 
 ### Databases
 
