@@ -4,7 +4,8 @@
 1. [SQL I Mini Project](#sql-i-mini-project)
 1. [SQL I Afternoon Project](#sql-i-afternoon-project)
 
-# Objectives
+<details open>
+    <summary> # Objectives</summary>
 
 ### Databases
 
@@ -24,6 +25,7 @@
 * Student can use max, min, avg, sum
 * Student can use count(*)
 * Student can use limit
+</details>
 
 # SQL I Lecture Notes
 
