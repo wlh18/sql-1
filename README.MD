@@ -36,7 +36,7 @@ In this lecture we introduce databases, SQL (Structured Query Language), and Pos
 <br>
  <br>
 
->The corollary to databases being generally so strongly typed is that they can be unforgiving. For example, missing semi-colons or the use of double quotes in place of single quotes can break code.  
+>Note: The corollary to databases being generally so strongly typed is that they can be unforgiving. For example, missing semi-colons or the use of double quotes in place of single quotes can break code.  
 
 SQL is a domain-specific language used in programming, and it is designed for managing data held in a relational database management system. 
 
