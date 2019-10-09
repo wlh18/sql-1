@@ -4,7 +4,7 @@
 1. [SQL I Mini Project](#sql-i-mini-project)
 1. [SQL I Afternoon Project](#sql-i-afternoon-project)
 
- # Objectives 
+ # Student Learning Objectives 
 <details open>
  <summary>Objectives Information</summary>
 
