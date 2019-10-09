@@ -1,8 +1,8 @@
 # Sections
 
 1. [SQL I Lecture Notes](#sql-i-lecture-notes)
-1. [SQL I Mini Project](#sql-i-mini)
-1. [SQL I Afternoon Project](#sql-i-afternoon)
+1. [SQL I Mini Project](#sql-i-mini-project)
+1. [SQL I Afternoon Project](#sql-i-afternoon-project)
 
 # Objectives
 
@@ -437,10 +437,10 @@ We can also drop our tables when we need to remove them. Be careful doing this, 
 ```sql
 DROP TABLE instructors;
 ```
-# SQL I MINI
+# SQL I Mini Project
 
 https://github.com/DevMountain/sql-1-mini
 
-# SQL I AFTERNOON
+# SQL I Afternoon Project
 
 https://github.com/DevMountain/sql-1-afternoon
