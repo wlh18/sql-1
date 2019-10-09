@@ -71,7 +71,8 @@ Here's an example of what a table in a relational database might look like:
 Tables in a relational database are built based on a relation schema, or a blueprint. 
 
 ### Schema
-
+<details>
+ <summary>Schema Information</summary>
 A **database schema** is a blueprint for how a database is structured. Put another way, a database schema is the skeleton structure that represents the logical view of the entire database. It defines how the data is organized and how the relations among them are associated. A database schema contains a collection of relation schemas for a whole database.
 
 A **relation schema** is the logical definition of a table--it defines what the name of a table is, and what the name and datatype of each column is.
@@ -91,15 +92,20 @@ CREATE TABLE instructors (
 
 In the code above, we are creating an instructors table, and specifying which datatypes are allowed to be inserted into specified columns of the table.
 
+</details>
+
 ### Datatypes
 
 When setting up our schema we will determine what **datatype** is allowed in our columns. There are a multitude of datatypes possible within PostgreSQL, so we will only cover a few here. For additional information on datatypes, refer to the official postgres docs, or check out this link here: http://www.postgresqltutorial.com/postgresql-data-types/.
 
-#### Empty Values
+<details>
+ <summary>Empty Values</summary>
 
 `Null` - This data type means an empty value.
+</details>
 
-#### Numeric Values
+<details>
+ <summary>Numeric Values</summary>
 
 `Integer` - This data type will define a round number.
 
@@ -108,18 +114,26 @@ When setting up our schema we will determine what **datatype** is allowed in our
 `Float` - This data type can have values up to 15 decimal places.
 
 `Serial` - This data type is an incrementing integer, usally used along with the `Primary Key` constraint in order to establish a unique identifier for a row in a table.
+</details>
 
-#### Character Values
+<details>
+ <summary>Character Values</summary>
 
 `Text` - This data type allows you to enter unlimited characters as a string.
 
 `Varchar(n)` - This data type and its corresponding parameter enable you to limit the number of characters inserted as a string.
+</details>
 
-#### Boolean Values
+<details>
+ <summary>Boolean Values</summary>
 
 `Boolean` - This data type is either true or false. 
+</details>
 
 ### Constraints 
+<details>
+ <summary>Constraints Information</summary>
+ 
 Constraints are the rules enforced on data columns on table. These are used to prevent invalid data from being entered into the database. This ensures the accuracy and reliability of the data in the database.
 
 Constraints could be column level or table level. Column level constraints are applied only to one column whereas table level constraints are applied to the whole table. Defining a data type for a column is a constraint in itself. For example, a column of type DATE constrains the column to valid dates.
@@ -150,7 +164,7 @@ CREATE TABLE COMPANY4(
    SALARY         REAL
 );
 ```
-
+</details>
 ### Statements
 
 SQL statements are queries that we make to our database.
@@ -167,7 +181,7 @@ A few things to note about SQL Statements:
 
 <details>
  <summary>Common Statements</summary>
-
+<br>
 <details>
  <summary>Insert Statement</summary>
 
