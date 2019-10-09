@@ -31,10 +31,10 @@
 # SQL I Lecture Notes
 <details open>
  <summary>Lecture Introduction</summary>
- <br>
+ <br/>
 In this lecture we introduce databases, SQL (Structured Query Language), and PostgreSQL. Some developers love dealing with databases and database languages, as they can offer a relief from the feelings of frustration and confusion that can occur when doing the flexible and somewhat arbitrary work involved in the frontend when using HTML, CSS, and JavaScript.  Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" approach to programming. 
-<br>
- <br>
+<br/>
+ <br/>
 
 >Note: The corollary to databases being generally so strongly typed is that they can be unforgiving. For example, missing semi-colons or the use of double quotes in place of single quotes can break code.  
 
@@ -52,7 +52,7 @@ For a fantastic resource for learning more about PostgreSQL, checkout their offi
 ## Databases
 <details>
  <summary>Databases Summary</summary>
- <br>
+ <br/>
  
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex, they are often developed using formal design and modeling techniques.
 
@@ -76,9 +76,9 @@ Tables in a relational database are built based on a relation schema, or a bluep
 ### Schema
 <details>
  <summary>Schema Summary</summary>
- <br>
+ <br/>
 A **database schema** is a blueprint for how a database is structured. Put another way, a database schema is the skeleton structure that represents the logical view of the entire database. It defines how the data is organized and how the relations among them are associated. A database schema contains a collection of relation schemas for a whole database.
- <br>
+ <br/>
 
 A **relation schema** is the logical definition of a table--it defines what the name of a table is, and what the name and datatype of each column is.
 
@@ -187,7 +187,7 @@ A few things to note about SQL Statements:
 
 <details>
  <summary>Common Statements</summary>
-<br>
+<br/>
 <details>
  <summary>Insert Statement</summary>
 
