@@ -29,7 +29,8 @@
 </details>
 
 # SQL I Lecture Notes
-
+<details open>
+ <summary>Lecture Introduction</summary>
 In this lecture we introduce SQL (Structured Query Language) and PostgreSQL. Some developers love dealing with databases and database languages, as they can be considered a safehaven from the flexibility, arbitrariness, and confusion that can occur when dealing with loosely typed languages and frontend technologies like HTML, JavaScript, and CSS. Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" mindset. 
 
 > The corollary to databases being strongly typed is that they can be unforgiving. For example, missing semi-colons can break code, and errors are not nearly as descript as those thrown by React and even JavaScript. 
@@ -43,9 +44,10 @@ An SQL server is a database management system which is mainly used for e-commerc
 For more information on the differences between SQL and PostgreSQL, check out this article: https://www.educba.com/sql-server-vs-postgresql/.
 
 For a fantastic resource for learning more about PostgreSQL, checkout their official docs at https://www.postgresql.org/docs/. 
-
+</details>
 ## Database
-
+<details>
+ <summary>Information</summary>
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex, they are often developed using formal design and modeling techniques.
 
 The database management system (DBMS) is the software that interacts with end users, applications, and the database itself to capture and analyze the data. The DBMS software additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a "database system". Often the term "database" is also used to loosely refer to any of the DBMS, the database system or an application associated with the database.
@@ -57,6 +59,7 @@ To put it simply, relational databases look like Excel spreadsheets, and they wo
 Virtually all relational database systems use SQL (Structured Query Language) as the basic language for querying and maintaining the database, and relational databases are extremely popular. The reasons for the dominance of relational databases are: simplicity, robustness, flexibility, performance, scalability and compatibility in managing generic data.
 
 A NoSQL database, or **non-relational database**, provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
+</details>
 
 Here's an example of what a table in a relational database might look like:
 
