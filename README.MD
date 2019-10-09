@@ -31,7 +31,7 @@
 # SQL I Lecture Notes
 <details open>
  <summary>Lecture Introduction</summary>
- 
+ <br>
 In this lecture we introduce SQL (Structured Query Language) and PostgreSQL. Some developers love dealing with databases and database languages, as they can be considered a safehaven from the flexibility, arbitrariness, and confusion that can occur when dealing with loosely typed languages and frontend technologies like HTML, JavaScript, and CSS. Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" mindset. 
 
 > The corollary to databases being strongly typed is that they can be unforgiving. For example, missing semi-colons can break code, and errors are not nearly as descript as those thrown by React and even JavaScript. 
@@ -50,6 +50,7 @@ For a fantastic resource for learning more about PostgreSQL, checkout their offi
 ## Databases
 <details>
  <summary>Databases Summary</summary>
+ <br>
  
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex, they are often developed using formal design and modeling techniques.
 
