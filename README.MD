@@ -6,7 +6,7 @@
 
  # Objectives 
 <details open>
- <summary></summary>
+ <summary>Information</summary>
 
 ### Databases
 
