@@ -97,7 +97,7 @@ In the code above, we are creating an instructors table, and specifying which da
 
 </details>
 
-* Datatypes
+#### Datatypes
 
 When setting up our schema we will determine what **datatype** is allowed in our columns. There are a multitude of datatypes possible within PostgreSQL, so we will only cover a few here. For additional information on datatypes, refer to the official postgres docs, or check out this link here: http://www.postgresqltutorial.com/postgresql-data-types/.
 
@@ -133,7 +133,7 @@ When setting up our schema we will determine what **datatype** is allowed in our
 `Boolean` - This data type is either true or false. 
 </details>
 
-* Constraints 
+#### Constraints 
 <details>
  <summary>Constraints Information</summary>
  
