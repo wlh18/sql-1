@@ -75,7 +75,7 @@ Tables in a relational database are built based on a relation schema, or a bluep
 
 ### Schema
 <details>
- <summary>Schema Information</summary>
+ <summary>Schema Summary</summary>
 A **database schema** is a blueprint for how a database is structured. Put another way, a database schema is the skeleton structure that represents the logical view of the entire database. It defines how the data is organized and how the relations among them are associated. A database schema contains a collection of relation schemas for a whole database.
 
 A **relation schema** is the logical definition of a table--it defines what the name of a table is, and what the name and datatype of each column is.
@@ -97,7 +97,7 @@ In the code above, we are creating an instructors table, and specifying which da
 
 </details>
 
-#### Datatypes
+#### Schema - Datatypes
 
 When setting up our schema we will determine what **datatype** is allowed in our columns. There are a multitude of datatypes possible within PostgreSQL, so we will only cover a few here. For additional information on datatypes, refer to the official postgres docs, or check out this link here: http://www.postgresqltutorial.com/postgresql-data-types/.
 
@@ -133,7 +133,7 @@ When setting up our schema we will determine what **datatype** is allowed in our
 `Boolean` - This data type is either true or false. 
 </details>
 
-#### Constraints 
+#### Schema - Constraints 
 <details>
  <summary>Constraints Information</summary>
  
