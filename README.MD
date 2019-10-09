@@ -1,8 +1,8 @@
 # Sections
 
-1. [SQL One Lecture Notes](#sql-i-lecture-notes)
-1. [SQL Mini Project](#sql-i-mini)
-1. [SQL Afternoon Project](#sql-i-afternoon)
+1. [SQL I Lecture Notes](#sql-i-lecture-notes)
+1. [SQL I Mini Project](#sql-i-mini)
+1. [SQL I Afternoon Project](#sql-i-afternoon)
 
 # Objectives
 
