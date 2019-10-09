@@ -168,6 +168,7 @@ CREATE TABLE COMPANY4(
 );
 ```
 </details>
+
 ### Statements
 
 SQL statements are queries that we make to our database.
