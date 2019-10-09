@@ -166,9 +166,10 @@ A few things to note about SQL Statements:
 4. It's common practice to write queries using all capital letters, but this is not necessary. Choose either uppercase or lowercase, but remain consistent. 
 
 <details>
- <summary>Statements</summary>
+ <summary>Common Statements</summary>
 
-#### Insert Statement
+<details>
+ <summary>Insert Statement</summary>
 
 We can use `insert statements` to add data into our tables. The syntax for an insert statement looks like the following:
 
@@ -183,7 +184,10 @@ Above, we are adding a person into the database table instructors. Insert statem
 
 > Note: It's import that the data in the VALUES parentheses line up with the column order specified. 
 
-#### Select Statement
+</details>
+
+<details>
+ <summary>Select Statement</summary>
 
 `Select` statements are used to query our database for information. The structure for a `select` statement looks like the following.
 
@@ -199,6 +203,7 @@ FROM instructors;
 ```
 
 Above, we declare two select statements using the `SELECT` keyword. Both are followed by the column name that we want to select data from, and then by the `FROM` keyword and the table we would like to select from . In the second select, we use an asterisk as a means of selecting all the data from every column of the instructors table. This is known as the universal, asterisk, or splat selector. 
+
 
 ##### WHERE CLAUSE
 
@@ -367,8 +372,10 @@ SELECT *
 FROM instructors
 ORDER BY id DESC;
 ```
+</details>
 
-#### SQL Functions
+<details>
+ <summary>SQL Functions</summary>
 
 There are "functions" that we can use with PostgreSQL. This will usually handle some sort of mathematical logic for us.
 
@@ -416,8 +423,10 @@ FROM instructors;
 ```
 
 Above, we have found the average age of the instructors.
+</details>
 
-#### Update Statements
+<details>
+ <summary>Update Statements</summary>
 
 We can update our data inside of a database by using an `update statement`.
 
@@ -429,7 +438,10 @@ WHERE id = 2;
 
 Above, we have just updated the name for the user with the id of 2. We first use the `UPDATE` keyword followed by the name of the table we are updating. Then we `SET` the name to "Chris" where the user id equals 2.
 
-#### Delete Statements
+</details>
+
+<details>
+ <summary>Delete Statements</summary>
 
 We can remove or destroy data from our databased by using a `delete statement`.
 
@@ -441,14 +453,17 @@ WHERE id = 2;
 We first declare the `DELETE FROM` clause, and then declare the table we want to remove data from. We then choose the id of the instructor we want to remove.
 
 > Make sure to add the where clause or the statement will remove everything in the table! SQL is unforgiving. That's why it's common practice to make sure you have an init.sql, and a seeds.sql file that is regularly updated. 
+</details>
 
-#### Dropping A Table
+<details>
+ <summary>Dropping A Table</summary>
 
 We can also drop our tables when we need to remove them. Be careful doing this, because we can not restore tables that have been dropped. Once again, SQL is unforgiving. 
 
 ```sql
 DROP TABLE instructors;
 ```
+</details>
 </details>
 
 # SQL I Mini Project
