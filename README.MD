@@ -1,8 +1,8 @@
 # Sections
 
-1. [SQL One Lecture Notes](#sql-one-lecture-notes)
-1. [SQL Mini Project](#sql-one-mini)
-1. [SQL Afternoon Project](#sql-one-afternoon)
+1. [SQL One Lecture Notes](#sql-i-lecture-notes)
+1. [SQL Mini Project](#sql-i-mini)
+1. [SQL Afternoon Project](#sql-i-afternoon)
 
 # Objectives
 
@@ -25,7 +25,7 @@
 * Student can use count(*)
 * Student can use limit
 
-# SQL One Lecture Notes
+# SQL I Lecture Notes
 
 In this lecture we introduce SQL (Structured Query Language) and PostgreSQL. Some developers love dealing with databases and database languages, as they can be considered a safehaven from the flexibility, arbitrariness, and confusion that can occur when dealing with loosely typed languages and frontend technologies like HTML, JavaScript, and CSS. Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" mindset. 
 
@@ -437,10 +437,10 @@ We can also drop our tables when we need to remove them. Be careful doing this, 
 ```sql
 DROP TABLE instructors;
 ```
-# SQL ONE MINI
+# SQL I MINI
 
 https://github.com/DevMountain/sql-1-mini
 
-# SQL ONE AFTERNOON
+# SQL I AFTERNOON
 
 https://github.com/DevMountain/sql-1-afternoon
