@@ -31,6 +31,7 @@
 # SQL I Lecture Notes
 <details open>
  <summary>Lecture Introduction</summary>
+ 
 In this lecture we introduce SQL (Structured Query Language) and PostgreSQL. Some developers love dealing with databases and database languages, as they can be considered a safehaven from the flexibility, arbitrariness, and confusion that can occur when dealing with loosely typed languages and frontend technologies like HTML, JavaScript, and CSS. Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" mindset. 
 
 > The corollary to databases being strongly typed is that they can be unforgiving. For example, missing semi-colons can break code, and errors are not nearly as descript as those thrown by React and even JavaScript. 
@@ -46,9 +47,10 @@ For more information on the differences between SQL and PostgreSQL, check out th
 For a fantastic resource for learning more about PostgreSQL, checkout their official docs at https://www.postgresql.org/docs/. 
 </details>
 
-## Database
+## Databases
 <details>
- <summary>Database Summary</summary>
+ <summary>Databases Summary</summary>
+ 
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex, they are often developed using formal design and modeling techniques.
 
 The database management system (DBMS) is the software that interacts with end users, applications, and the database itself to capture and analyze the data. The DBMS software additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a "database system". Often the term "database" is also used to loosely refer to any of the DBMS, the database system or an application associated with the database.
@@ -68,7 +70,7 @@ Here's an example of what a table in a relational database might look like:
 
 Tables in a relational database are built based on a relation schema, or a blueprint. 
 
-## Schema
+### Schema
 
 A **database schema** is a blueprint for how a database is structured. Put another way, a database schema is the skeleton structure that represents the logical view of the entire database. It defines how the data is organized and how the relations among them are associated. A database schema contains a collection of relation schemas for a whole database.
 
@@ -89,15 +91,15 @@ CREATE TABLE instructors (
 
 In the code above, we are creating an instructors table, and specifying which datatypes are allowed to be inserted into specified columns of the table.
 
-## Datatypes
+### Datatypes
 
 When setting up our schema we will determine what **datatype** is allowed in our columns. There are a multitude of datatypes possible within PostgreSQL, so we will only cover the following here. 
 
-### Empty Values
+#### Empty Values
 
 `Null` - This data type means an empty value.
 
-### Numeric Values
+#### Numeric Values
 
 `Integer` - This data type will define a round number.
 
@@ -107,17 +109,17 @@ When setting up our schema we will determine what **datatype** is allowed in our
 
 `Serial` - This data type is an incrementing integer, usally used along with the `Primary Key` constraint in order to establish a unique identifier for a row in a table.
 
-### Character Values
+#### Character Values
 
 `Text` - This data type allows you to enter unlimited characters as a string.
 
 `Varchar(n)` - This data type and its corresponding parameter enable you to limit the number of characters inserted as a string.
 
-### Boolean Values
+#### Boolean Values
 
 `Boolean` - This data type is either true or false. 
 
-## Constraints 
+### Constraints 
 Constraints are the rules enforced on data columns on table. These are used to prevent invalid data from being entered into the database. This ensures the accuracy and reliability of the data in the database.
 
 Constraints could be column level or table level. Column level constraints are applied only to one column whereas table level constraints are applied to the whole table. Defining a data type for a column is a constraint in itself. For example, a column of type DATE constrains the column to valid dates.
@@ -149,7 +151,7 @@ CREATE TABLE COMPANY4(
 );
 ```
 
-## Statements
+### Statements
 
 SQL statements are queries that we make to our database.
 
@@ -163,7 +165,7 @@ A few things to note about SQL Statements:
 
 4. It's common practice to write queries using all capital letters, but this is not necessary. Choose either uppercase or lowercase, but remain consistent. 
 
-### Insert Statement
+#### Insert Statement
 
 We can use `insert statements` to add data into our tables. The syntax for an insert statement looks like the following:
 
@@ -178,7 +180,7 @@ Above, we are adding a person into the database table instructors. Insert statem
 
 > Note: It's import that the data in the VALUES parentheses line up with the column order specified. 
 
-### Select Statement
+#### Select Statement
 
 `Select` statements are used to query our database for information. The structure for a `select` statement looks like the following.
 
@@ -195,7 +197,7 @@ FROM instructors;
 
 Above, we declare two select statements using the `SELECT` keyword. Both are followed by the column name that we want to select data from, and then by the `FROM` keyword and the table we would like to select from . In the second select, we use an asterisk as a means of selecting all the data from every column of the instructors table. This is known as the universal, asterisk, or splat selector. 
 
-#### WHERE CLAUSE
+##### WHERE CLAUSE
 
 We can use a `where clause` to add a filter to our select statements.
 
@@ -205,7 +207,7 @@ FROM instructors
 WHERE name = 'Zach';
 ```
 
-##### Comparison Operators
+###### Comparison Operators
 
 Operators can be combined with the `WHERE` clause for greater specificity. 
 
@@ -249,7 +251,7 @@ FROM instructors
 WHERE id != 2;
 ```
 
-##### Logical Operators
+###### Logical Operators
 
 `AND` - Check for multiple conditions to be true.
 
@@ -269,7 +271,7 @@ WHERE name = 'Zach'
 OR id = 2;
 ```
 
-##### Null and Not Null
+###### Null and Not Null
 
 `IS NULL` - Checks for a value to be null.
 
@@ -287,7 +289,7 @@ FROM instructors
 WHERE name IS NOT NULL;
 ```
 
-##### IN Condition
+###### IN Condition
 
 `IN` - This is used as shorthand syntax to act as multiple `OR` conditions.
 
@@ -307,7 +309,7 @@ OR name = 'Matt'
 OR name = 'Josh';
 ```
 
-##### BETWEEN Condition
+###### BETWEEN Condition
 
 `BETWEEN` - This is used to retrieve values in between a range.
 
@@ -317,7 +319,7 @@ FROM instructors
 WHERE id BETWEEN 1 AND 3;
 ```
 
-#### LIMIT
+##### LIMIT
 
 The `LIMIT` clause restricts the number of rows returned by a select statement.
 
@@ -329,7 +331,7 @@ LIMIT 2;
 
 This would return the first two rows of data from the instructors table.
 
-#### ORDER BY
+##### ORDER BY
 
 `ORDER BY` - This clause will sort the records in our result. This clause can only be used in select statements.
 
@@ -341,7 +343,7 @@ ORDER BY id;
 
 They `ORDER BY` clause will organize results in ascending order by default.
 
-##### ASC
+###### ASC
 
 `ASC` is the keyword we can use with `ORDER BY` to organize by ascending order by the column type specified.
 
@@ -352,7 +354,7 @@ FROM instructors
 ORDER BY id ASC;
 ```
 
-##### DESC
+###### DESC
 
 `DESC` is the keyword we can use with order by to sort our records in the result in descending order.
 
@@ -363,7 +365,7 @@ FROM instructors
 ORDER BY id DESC;
 ```
 
-### SQL Functions
+#### SQL Functions
 
 There are "functions" that we can use with PostgreSQL. This will usually handle some sort of mathematical logic for us.
 
@@ -412,7 +414,7 @@ FROM instructors;
 
 Above, we have found the average age of the instructors.
 
-### Update Statements
+#### Update Statements
 
 We can update our data inside of a database by using an `update statement`.
 
@@ -424,7 +426,7 @@ WHERE id = 2;
 
 Above, we have just updated the name for the user with the id of 2. We first use the `UPDATE` keyword followed by the name of the table we are updating. Then we `SET` the name to "Chris" where the user id equals 2.
 
-### Delete Statements
+#### Delete Statements
 
 We can remove or destroy data from our databased by using a `delete statement`.
 
@@ -437,7 +439,7 @@ We first declare the `DELETE FROM` clause, and then declare the table we want to
 
 > Make sure to add the where clause or the statement will remove everything in the table! SQL is unforgiving. That's why it's common practice to make sure you have an init.sql, and a seeds.sql file that is regularly updated. 
 
-### Dropping A Table
+#### Dropping A Table
 
 We can also drop our tables when we need to remove them. Be careful doing this, because we can not restore tables that have been dropped. Once again, SQL is unforgiving. 
 
