@@ -93,7 +93,7 @@ In the code above, we are creating an instructors table, and specifying which da
 
 ### Datatypes
 
-When setting up our schema we will determine what **datatype** is allowed in our columns. There are a multitude of datatypes possible within PostgreSQL, so we will only cover the following here. 
+When setting up our schema we will determine what **datatype** is allowed in our columns. There are a multitude of datatypes possible within PostgreSQL, so we will only cover a few here. For additional information on datatypes, refer to the official postgres docs, or check out this link here: http://www.postgresqltutorial.com/postgresql-data-types/.
 
 #### Empty Values
 
@@ -164,6 +164,9 @@ A few things to note about SQL Statements:
 3. We need to use single quotes, not double.
 
 4. It's common practice to write queries using all capital letters, but this is not necessary. Choose either uppercase or lowercase, but remain consistent. 
+
+<details>
+ <summary>Statements</summary>
 
 #### Insert Statement
 
@@ -446,6 +449,8 @@ We can also drop our tables when we need to remove them. Be careful doing this, 
 ```sql
 DROP TABLE instructors;
 ```
+</details>
+
 # SQL I Mini Project
 
 https://github.com/DevMountain/sql-1-mini
