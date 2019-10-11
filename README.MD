@@ -51,7 +51,7 @@ Some developers love dealing with databases and database languages, as they can 
 ## SQL VS PostgreSQL
 <details open> 
  <summary>SQL Information</summary>
-SQL is a domain-specific language used in programming, and it is designed for managing data held in a relational database management system. 
+SQL (Structured Query Language) is a domain-specific language used in programming, and it is designed for managing data held in a relational database management system. 
  <br/>
  <br/>
 
@@ -78,7 +78,7 @@ PostgreSQL is a **relational database**. A relational database is organized base
 
 To put it simply, relational databases look like Excel spreadsheets, and they work by relating and referencing rows and columns from one table to another.
 
-Virtually all relational database systems use SQL (Structured Query Language) as the basic language for querying and maintaining the database, and relational databases are extremely popular. The reasons for the dominance of relational databases are: simplicity, robustness, flexibility, performance, scalability and compatibility in managing generic data.
+Virtually all relational database systems use SQL as the basic language for querying and maintaining the database, and relational databases are extremely popular. The reasons for the dominance of relational databases are: simplicity, robustness, flexibility, performance, scalability and compatibility in managing generic data.
 
 A NoSQL database, or **non-relational database**, provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.
 </details>
