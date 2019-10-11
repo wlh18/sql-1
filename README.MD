@@ -71,7 +71,7 @@ Here's an example of what a table in a relational database might look like:
 
 ![Table](images/table.png)
 
-Tables in a relational database are built based on a relation schema, or a blueprint. 
+>Note: Tables in a relational database are built based on a "relation schema", or a blueprint. 
 
 ### Schema
 <details>
