@@ -487,7 +487,8 @@ DROP TABLE instructors;
 
 # Additional Resources
 
-* https://www.postgresql.org/docs/ - The official docs of PostgreSQL. These are the most comprehensive resource on everything PostgreSQL
+* https://www.postgresql.org/docs/ - The official docs of PostgreSQL. These are a comprehensive resource on everything PostgreSQL
+* http://www.postgresqltutorial.com/ - These are more user-friendly and accesible guides on using PostgreSQL. Highly encourage beginners to look here. 
 * https://www.educba.com/sql-server-vs-postgresql/ - A brief article on the differences between plain SQL and PostgreSQL.
 * Database Diagram Design Tools
   1. https://dbdiagram.io/home - Useful design tool that produces SQL code for you based on the diagrams you create.
