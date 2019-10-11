@@ -21,6 +21,7 @@
 * Student can create a table
 * Student can utilize constraints (?)
 * Student can insert a row
+* Student can delete a row (?)
 * Student can query with * or specific columns
 * Student can query results with a where clause
 * Student can use comparison operators (Greater, less than, equals, not equals)
