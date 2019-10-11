@@ -1,8 +1,8 @@
 # Lesson Sections
 
 1. [SQL I Lecture Notes](#sql-i-lecture-notes)
-1. [SQL I Mini Project](#sql-i-mini-project)
 1. [Additional Resources](#additional-resources)
+1. [SQL I Mini Project](#sql-i-mini-project)
 1. [SQL I Afternoon Project](#sql-i-afternoon-project)
 
  # Student Learning Objectives 
