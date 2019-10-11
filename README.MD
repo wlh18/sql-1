@@ -50,7 +50,7 @@ For a fantastic resource for learning more about PostgreSQL, checkout their offi
 </details>
 
 ## Databases
-<details>
+<details open>
  <summary>Databases Summary</summary>
  <br/>
  
