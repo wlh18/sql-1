@@ -34,6 +34,7 @@
  <summary>Lecture Introduction</summary>
 In this lecture we introduce databases, SQL (Structured Query Language), and PostgreSQL. Database computers and database softwares are used because they are incredibly efficient at storing, processing, and managing enormous amounts of information. 
  <br />
+ <br />
 Some developers love dealing with databases and database languages, as they can offer a relief from the feelings of frustration and confusion that can occur when doing the flexible and somewhat arbitrary work involved in the frontend when using HTML, CSS, and JavaScript.  Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" approach to programming.
  
 >Note: The corollary to databases being generally so strongly typed is that they can be unforgiving. For example, missing semi-colons or the use of double quotes in place of single quotes can break code.  
@@ -44,7 +45,8 @@ Some developers love dealing with databases and database languages, as they can 
 <details open> 
  <summary>SQL Information</summary>
 SQL is a domain-specific language used in programming, and it is designed for managing data held in a relational database management system. 
-<br/>
+ <br />
+ <br />
 PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. PostgreSQL is the language that we will be using to interact with our database to store, retrieve, delete, and update data. Although it shares much in common with SQL, be aware that there are significant differences, particularly when it comes to syntax. 
 
 An SQL server is a database management system which is mainly used for e-commerce and providing different data warehousing solutions. PostgreSQL is an advanced version of SQL which provides support to different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions.
