@@ -46,6 +46,8 @@ Some developers love dealing with databases and database languages, as they can 
 <details open> 
  <summary>SQL Information</summary>
 SQL is a domain-specific language used in programming, and it is designed for managing data held in a relational database management system. 
+ <br/>
+ <br/>
 
 PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. PostgreSQL is the language that we will be using to interact with our database to store, retrieve, delete, and update data. Although it shares much in common with SQL, be aware that there are significant differences, particularly when it comes to syntax. 
 
@@ -63,8 +65,6 @@ For a fantastic resource for learning more about PostgreSQL, checkout their offi
 <details open>
  <summary>Databases Summary</summary>
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex, they are often developed using formal design and modeling techniques.
- <br/>
- <br/>
 
 The database management system (DBMS) is the software that interacts with end users, applications, and the database itself to capture and analyze the data. The DBMS software additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a "database system". Often the term "database" is also used to loosely refer to any of the DBMS, the database system or an application associated with the database.
 
