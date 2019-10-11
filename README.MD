@@ -86,6 +86,8 @@ Here's an example of what a table in a relational database might look like:
 ### Schema
 <details>
  <summary>Schema Summary</summary>
+ <br/>
+ <br/>
 A **database schema** is a blueprint for how a database is structured. Put another way, a database schema is the skeleton structure that represents the logical view of the entire database. It defines how the data is organized and how the relations among them are associated. A database schema contains a collection of relation schemas for a whole database.
 
 A **relation schema** is the logical definition of a table--it defines what the name of a table is, and what the name and datatype of each column is.
