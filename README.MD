@@ -41,7 +41,8 @@ In this lecture we introduce databases, SQL (Structured Query Language), and Pos
  <br />
  <br />
 Some developers love dealing with databases and database languages, as they can offer a relief from the feelings of frustration and confusion that can occur when doing the flexible and somewhat arbitrary work involved in the frontend when using HTML, CSS, and JavaScript.  Databases, including PostgreSQL databases, are often very strongly typed, and are consequently much more rules-based and rigid. Databases are more conducive to a binary, "it's either right, or it's wrong" approach to programming.
-<br />
+ 
+ 
 >Note: The corollary to databases being generally so strongly typed is that they can be unforgiving. For example, missing semi-colons or the use of double quotes in place of single quotes can break code.  
  
  </details>
