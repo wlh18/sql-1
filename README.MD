@@ -400,6 +400,37 @@ ORDER BY id DESC;
 </details>
 
 <details>
+ <summary>Update Statements</summary>
+
+We can update our data inside of a database by using an `update statement`.
+
+```sql
+UPDATE instructors
+SET name = 'Joseph'
+WHERE id = 2;
+```
+
+Above, we have just updated the name for the user with the id of 2. We first use the `UPDATE` keyword followed by the name of the table we are updating. Then we `SET` the name to "Chris" where the user id equals 2.
+
+</details>
+
+<details>
+ <summary>Delete Statements</summary>
+
+We can remove or destroy data from our databased by using a `delete statement`.
+
+```sql
+DELETE FROM instructors
+WHERE id = 2;
+```
+
+We first declare the `DELETE FROM` clause, and then declare the table we want to remove data from. We then choose the id of the instructor we want to remove.
+
+> Make sure to add the where clause or the statement will remove everything in the table! SQL is unforgiving. That's why it's common practice to make sure you have an init.sql, and a seeds.sql file that is regularly updated. 
+</details>
+
+
+<details>
  <summary>SQL Functions</summary>
 
 There are "functions" that we can use with PostgreSQL. This will usually handle some sort of mathematical logic for us.
@@ -448,36 +479,6 @@ FROM instructors;
 ```
 
 Above, we have found the average age of the instructors.
-</details>
-
-<details>
- <summary>Update Statements</summary>
-
-We can update our data inside of a database by using an `update statement`.
-
-```sql
-UPDATE instructors
-SET name = 'Joseph'
-WHERE id = 2;
-```
-
-Above, we have just updated the name for the user with the id of 2. We first use the `UPDATE` keyword followed by the name of the table we are updating. Then we `SET` the name to "Chris" where the user id equals 2.
-
-</details>
-
-<details>
- <summary>Delete Statements</summary>
-
-We can remove or destroy data from our databased by using a `delete statement`.
-
-```sql
-DELETE FROM instructors
-WHERE id = 2;
-```
-
-We first declare the `DELETE FROM` clause, and then declare the table we want to remove data from. We then choose the id of the instructor we want to remove.
-
-> Make sure to add the where clause or the statement will remove everything in the table! SQL is unforgiving. That's why it's common practice to make sure you have an init.sql, and a seeds.sql file that is regularly updated. 
 </details>
 
 <details>
