@@ -61,8 +61,6 @@ For a fantastic resource for learning more about PostgreSQL, checkout their offi
 ## Databases
 <details open>
  <summary>Databases Summary</summary>
- <br/>
- 
 A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex, they are often developed using formal design and modeling techniques.
 
 The database management system (DBMS) is the software that interacts with end users, applications, and the database itself to capture and analyze the data. The DBMS software additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a "database system". Often the term "database" is also used to loosely refer to any of the DBMS, the database system or an application associated with the database.
@@ -85,8 +83,6 @@ Here's an example of what a table in a relational database might look like:
 ### Schema
 <details>
  <summary>Schema Summary</summary>
- <br/>
- 
 A **database schema** is a blueprint for how a database is structured. Put another way, a database schema is the skeleton structure that represents the logical view of the entire database. It defines how the data is organized and how the relations among them are associated. A database schema contains a collection of relation schemas for a whole database.
 
 A **relation schema** is the logical definition of a table--it defines what the name of a table is, and what the name and datatype of each column is.
