@@ -485,6 +485,17 @@ DROP TABLE instructors;
 ```
 </details>
 
+# Additional Resources
+
+* https://www.postgresql.org/docs/ - The official docs of PostgreSQL. These are the most comprehensive resource on everything PostgreSQL
+* https://www.educba.com/sql-server-vs-postgresql/ - A brief article on the differences between plain SQL and PostgreSQL.
+* Database Diagram Design Tools
+ 1. https://dbdiagram.io/home - Useful design tool that produces SQL code for you based on the diagrams you create.
+ >Note: Even when you specify that the software produced code should be formatted in PostgreSQL, you should **NOT** trust that it is entirely syntactically correct.
+ 1. https://draw.io - A very basic, but free diagramming tool. Can be used for wireframing or creating charts/diagrams beyond database tables. 
+ 1. https://lucidchart.com - A more elegant and feature-rich collaborative diagramming tool.
+ >Note: The free plan is limited to 3 diagrams and 60 objects per diagram. 
+ 
 # SQL I Mini Project
 
 https://github.com/DevMountain/sql-1-mini
