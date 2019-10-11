@@ -185,9 +185,9 @@ A few things to note about SQL Statements:
 
 4. It's common practice to write queries using all capital letters, but this is not necessary. Choose either uppercase or lowercase, but remain consistent. 
 
-<details open>
- <summary>Common Statements</summary>
-<br/>
+
+#### Common Statements
+
 <details>
  <summary>Insert Statement</summary>
 
@@ -483,7 +483,6 @@ We can also drop our tables when we need to remove them. Be careful doing this, 
 ```sql
 DROP TABLE instructors;
 ```
-</details>
 </details>
 
 # SQL I Mini Project
