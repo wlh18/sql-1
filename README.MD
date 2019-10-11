@@ -14,10 +14,12 @@
 * Student understands the purpose of databases
 * Student understands relational databases and tables
 * Student understands value types
+* Student understands SQL vs PostgreSQL (?)
 
 ### SQL
 
 * Student can create a table
+* Student can utilize constraints (?)
 * Student can insert a row
 * Student can query with * or specific columns
 * Student can query results with a where clause
@@ -27,6 +29,8 @@
 * Student can use max, min, avg, sum
 * Student can use count(*)
 * Student can use limit
+* Student can drop a table (?)
+
 </details>
 
 # SQL I Lecture Notes
