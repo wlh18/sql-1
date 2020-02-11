@@ -37,7 +37,7 @@
 
 # SQL 1 Lecture Slides
 
-https://slides.com/scottsutherland-2/sql-one-7bcafc#
+https://slides.com/matias_perez/scott-s-sql-one/
 
 # SQL 1 Lecture Notes
 <details open>
