@@ -1,6 +1,7 @@
 # Lesson Sections
 
 1. [SQL I Lecture Notes](#sql-i-lecture-notes)
+1. [SQL 1 lecture slides](https://slides.com/scottsutherland-2/sql-one-7bcafc#/)
 1. [Additional Resources](#additional-resources)
 1. [SQL I Mini Project](#sql-i-mini-project)
 1. [SQL I Afternoon Project](#sql-i-afternoon-project)
