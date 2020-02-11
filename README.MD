@@ -1,10 +1,10 @@
 # Lesson Sections
 
-1. [SQL I Lecture Notes](#sql-i-lecture-notes)
+1. [SQL 1 Lecture Notes](#sql-1-lecture-notes)
 1. [SQL 1 lecture slides](https://slides.com/scottsutherland-2/sql-one-7bcafc#/)
 1. [Additional Resources](#additional-resources)
-1. [SQL I Mini Project](#sql-i-mini-project)
-1. [SQL I Afternoon Project](#sql-i-afternoon-project)
+1. [SQL 1 Mini Project](#sql-1-mini-project)
+1. [SQL 1 Afternoon Project](#sql-1-afternoon-project)
 
  # Student Learning Objectives 
 <details open>
@@ -35,7 +35,11 @@
 
 </details>
 
-# SQL I Lecture Notes
+# SQL 1 Lecture Slides
+
+https://slides.com/scottsutherland-2/sql-one-7bcafc#
+
+# SQL 1 Lecture Notes
 <details open>
  <summary>Lecture Introduction</summary>
 In this lecture we introduce databases, SQL (Structured Query Language), and PostgreSQL. Database computers and database softwares are used because they are incredibly efficient at storing, processing, and managing enormous amounts of information. 
@@ -514,10 +518,10 @@ DROP TABLE instructors;
   1. https://lucidchart.com - A more elegant and feature-rich collaborative diagramming tool.
   >Note: The free plan is limited to 3 diagrams and 60 objects per diagram. 
  
-# SQL I Mini Project
+# SQL 1 Mini Project
 
 https://github.com/DevMountain/sql-1-mini
 
-# SQL I Afternoon Project
+# SQL 1 Afternoon Project
 
 https://github.com/DevMountain/sql-1-afternoon
