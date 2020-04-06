@@ -4,7 +4,7 @@ Lecture Slides: https://slides.com/dmweb/scott-s-sql-one
 
 Mini Project: https://github.com/DevMountain/sql-1-mini
 
-https://github.com/DevMountain/sql-1-afternoon
+Afternoon Project: https://github.com/DevMountain/sql-1-afternoon
 
 > NOTE: Both the mini and afternoon projects will be completed on https://postgres.devmountain.com
 >
