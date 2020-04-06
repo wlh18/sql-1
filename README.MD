@@ -1,13 +1,17 @@
-# Lesson Sections
+# SQL 1
 
-1. [SQL 1 Lecture Notes](#sql-1-lecture-notes)
-1. [SQL 1 lecture slides](https://slides.com/scottsutherland-2/sql-one-7bcafc#/)
-1. [Additional Resources](#additional-resources)
-1. [SQL 1 Mini Project](#sql-1-mini-project)
-1. [SQL 1 Afternoon Project](#sql-1-afternoon-project)
+Lecture Slides: https://slides.com/dmweb/scott-s-sql-one
 
- # Student Learning Objectives 
-<details open>
+Mini Project: https://github.com/DevMountain/sql-1-mini
+
+https://github.com/DevMountain/sql-1-afternoon
+
+> NOTE: Both the mini and afternoon projects will be completed on https://postgres.devmountain.com
+>
+> Students should comment their queries as they go and then send them to their mentor over slack upon completion.
+
+ ## Student Learning Objectives 
+<details>
  <summary>Objectives Information</summary>
 
 ### Databases
@@ -35,11 +39,7 @@
 
 </details>
 
-# SQL 1 Lecture Slides
-
-https://slides.com/matias_perez/scott-s-sql-one/
-
-# SQL 1 Lecture Notes
+## SQL 1 Lecture Notes
 <details open>
  <summary>Lecture Introduction</summary>
 In this lecture we introduce databases, SQL (Structured Query Language), and PostgreSQL. Database computers and database softwares are used because they are incredibly efficient at storing, processing, and managing enormous amounts of information. 
